@@ -1,0 +1,48 @@
+body{
+    background-image: url("background.png");
+    background-attachment: fixed;
+}
+.wrapper{
+    width: 100%;
+    margin: 0 auto;
+}
+.biography{
+    background-color: rgba(255, 255, 255, 0.249);
+    width: 60%;
+    margin: 0 auto;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    display: flex;
+    padding: 0% 1% 0% 1%;
+    flex-direction: column;
+    justify-content: center;
+}
+.container{
+    background-color: rgba(255, 255, 255, 0.476);
+    flex-basis: 90%;
+    padding: 0% 1%;
+    margin: 10px 0px 10px 0px;
+    padding: 10x;
+}
+.title{
+    text-align: center;
+    font-family: 'Bitter', sans-serif;
+}
+ul{
+    text-align: left;
+    font-size: 14pt;
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15pt;
+    text-indent: 30px;
+    text-align: justify;
+}
+.right{
+    font-size: 12pt;
+    font-style: italic;
+    text-indent: 70%;
+}
+pre{
+    font-size: 13pt;
+}
