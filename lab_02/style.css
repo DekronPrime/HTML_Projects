@@ -1,0 +1,90 @@
+body{
+    background-color: rgb(230, 230, 230);
+}
+.task{
+    padding: 2% 0%;
+    width: 60%;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 15px;
+}
+.table td, .table th{
+    border: 1px solid #6395ff;
+    padding: 5px 10px;
+}
+.table{
+    border-collapse: collapse;
+    width: 500px;
+    background-color: white;
+    margin: 0 auto;
+}
+.table thead{
+    background-color: #dae1f8;
+}
+.table tfoot{
+    text-align: right;
+    background-color: #5776b1;
+    color: #fff;
+}
+/*  */
+.schedule, .schedule thead{
+    border: 3px solid black;
+}
+.schedule{
+    border-collapse: collapse;
+    margin: 0 auto;
+    font-family: Arial, serif;
+    font-weight: 700;
+    text-align: center;
+}
+.schedule td, .schedule th{
+    border: 2px solid black;
+}
+.schedule thead tr:first-of-type th:nth-last-child(3),
+.schedule thead tr:first-of-type th:nth-last-child(2),
+.schedule thead tr:first-of-type th:nth-last-child(1),
+.schedule thead tr:last-of-type{
+    background-color: #cde0c1;
+    height: 30px;
+}
+span{
+    text-transform: uppercase;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    font-family: Arial, serif;
+    font-weight: 700;
+}
+.general{
+    background-color: #c2d4f1;
+    border: 3px solid black;
+}
+.dotted{
+    border-bottom-style: dotted;
+}
+pre{
+    margin: 0px;
+    font-family: Arial, serif;
+}
+caption{
+    margin:5px 0px;
+}
+.dashed th:last-of-type,.dashed td:last-of-type{
+    border-left: 3px dashed;
+}
+.dashed th:nth-last-of-type(1), .dashed th:nth-last-of-type(2){
+    width: 45px;
+}
+.dashed th:nth-last-of-type(3){
+    width: 270px;
+    font-size: 10pt;
+    border-bottom-width: 3px;
+}
+.dashed td:nth-last-of-type(3), .dashed td:nth-last-of-type(2){
+    font-weight: 100;
+}
+.dashed td:nth-last-of-type(3){
+    text-align: left;
+}
+.dashed td:nth-last-of-type(2){
+    vertical-align: bottom;
+}

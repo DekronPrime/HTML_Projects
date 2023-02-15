@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Таблиці</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="task">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>№</th>
+                    <th>Ім'я</th>
+                    <th>E-mail</th>
+                    <th>Стать</th>
+                    <th>Дата</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Ісаак</td>
+                    <td>newtonis07@gmail.com</td>
+                    <td>М</td>
+                    <td>06.08.1835</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Альберт</td>
+                    <td>einstand19@gmail.com</td>
+                    <td>М</td>
+                    <td>18.11.1918</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Галілео</td>
+                    <td>galileus11@gmail.com</td>
+                    <td>М</td>
+                    <td>22.01.1689</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="5">Всього: 3</td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+
+    <hr size="3" color="black" width="60%">
+
+    <div class="task">
+        <table class="schedule">
+            <caption>Розклад занять</caption>
+            <colgroup>
+                <col span="3" class="general">
+                <col>
+                <col span="2" class="auditory">
+            </colgroup>
+            <thead>
+                <tr class="dashed">
+                    <th rowspan="2">День<br>тижня</th>
+                    <th rowspan="2">Па-<br>ра</th>
+                    <th rowspan="2">Тиж-<br>день</th>
+                    <th>Марцюк О.В.</th>
+                    <th rowspan="2">Ауд.<br>(I)</th>
+                    <th rowspan="2">Ауд.<br>(II)</th>
+                </tr>
+                <tr>
+                    <th>КІ-405п</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="dotted first dashed">
+                    <td rowspan="10"><span>Четвер</span></td>
+                    <td rowspan="2">3</td>
+                    <td>I</td>
+                    <td rowspan="2"></td>
+                    <td rowspan="2"></td>
+                    <td rowspan="2"></td>
+                </tr>
+                <tr>
+                    <td>II</td>
+                </tr>
+                <tr class="dotted dashed">
+                    <td rowspan="2">4</td>
+                    <td>I</td>
+                    <td rowspan="2">Основи програмної інженерії<br>Радчик</td>
+                    <td rowspan="2">103</td>
+                    <td rowspan="2"></td>
+                </tr>
+                <tr>
+                    <td>II</td>
+                </tr>
+                <tr class="dotted dashed">
+                    <td rowspan="2">5</td>
+                    <td>I</td>
+                    <td rowspan="2">Інтернет<br>Капаціла</td>
+                    <td rowspan="2">315</td>
+                    <td rowspan="2"></td>
+                </tr>
+                <tr>
+                    <td>II</td>
+                </tr>
+                <tr class="dotted dashed">
+                    <td rowspan="2">6</td>
+                    <td>I</td>
+                    <td><pre>ПЗ                     Лісовий</pre></td>
+                    <td>103</td>
+                    <td></td>
+                </tr>
+                <tr class="dashed">
+                    <td>II</td>
+                    <td><pre>Екон і планув вир-ва    Павлик</pre></td>
+                    <td>212в</td>
+                    <td></td>
+                </tr>
+                <tr class="dotted dashed">
+                    <td rowspan="2">7</td>
+                    <td>I</td>
+                    <td rowspan="2"></td>
+                    <td rowspan="2"></td>
+                    <td rowspan="2"></td>
+                </tr>
+                <tr>
+                    <td>II</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
