@@ -59,7 +59,7 @@ span{
     border: 3px solid black;
 }
 .dotted{
-    border-bottom-style: dotted;
+    border-top-style: dotted;
 }
 pre{
     margin: 0px;
@@ -87,4 +87,7 @@ caption{
 }
 .dashed td:nth-last-of-type(2){
     vertical-align: bottom;
+}
+td:hover,th:hover{
+    background-color: rgba(0, 0, 0, 0.286);
 }
